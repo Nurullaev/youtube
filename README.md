@@ -46,4 +46,4 @@ We welcome contributions! Please read our [Code of Conduct](https://github.com/a
 
 For additional support, [open an issue](https://github.com/anekobtw/youtube-dl-bot/issues).
 
-> // Maintained with ❤️ by [@anekobtw](https://github.com/anekobtw)
+> // Maintained with  ❤️ by [@anekobtw](https://github.com/anekobtw)
