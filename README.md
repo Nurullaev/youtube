@@ -6,21 +6,32 @@
 
 A Telegram bot for downloading videos from YouTube, Instagram, TikTok, and X (Twitter) directly in your chats.
 
-**Live Bot**: [@free_yt_dl_bot](https://t.me/free_yt_dl_bot)  
+**Live Bot**: [@NurullaevBot](https://t.me/nurullaevbot)  
 
 ## Prerequisites 📋
-- Python 3.8+
 - Telegram bot token ([Get from @BotFather](https://t.me/BotFather))
 - FFmpeg
-- `pip` package manager
+```bash
+$ sudo apt install ffmpeg
+```
 
 ## Installation & Setup 🛠️
 
-### 1. Clone the repository
+### 1. Install
 ```bash
-$ git clone https://github.com/anekobtw/youtube-dl-bot.git
-$ cd youtube-dl-bot/bot
+$ https://github.com/Nurullaev/youtube.git
+$ cd youtube/bot
+$ python3 -m venv venv
+$ source venv/bin/activate
 $ pip install -r requirements.txt
+$ pip install -U get-video-properties
+$ deactivate
+$ sudo chmod -R 755 /opt/youtube/
+$ nano /etc/systemd/system/youtube_bot.service
+$ sudo systemctl enable youtube_bot.service
+$ sudo systemctl daemon-reload
+$ sudo systemctl start youtube_bot.service
+$ sudo systemctl restart youtube_bot.service
 ```
 
 ### 2. Configure environment
@@ -31,19 +42,3 @@ Create a `.env` file with your Telegram bot token:
 ```bash
 $ python main.py
 ```
-
-## Contributing 🤝
-We welcome contributions! Please read our [Code of Conduct](https://github.com/anekobtw/youtube-dl-bot/blob/main/CODE_OF_CONDUCT.md)
-
-## License 📄
-©️ This project is copyrighted. Unauthorized copying, distribution, or modification of any files in this repository is strictly prohibited without prior written permission.
-
-## Troubleshooting 🔧
-<b>Common issues:</b>
-- <b>Invalid URL:</b> Ensure the link is from a supported platform.
-- <b>Download failed:</b> The video might be geo-restricted or private.
-- <b>Size limits:</b> Telegram has the limit of 50 MB per file, try lowering the quality.
-
-For additional support, [open an issue](https://github.com/anekobtw/youtube-dl-bot/issues).
-
-> // Maintained with  ❤️ by [@anekobtw](https://github.com/anekobtw)
