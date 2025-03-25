@@ -5,7 +5,7 @@ router = Router()
 
 
 def news_kb() -> types.InlineKeyboardMarkup:
-    return types.InlineKeyboardMarkup(inline_keyboard=[[types.InlineKeyboardButton(text="📰 Телеграм канал с новостями", url="t.me/anekobtw_c")]])
+    return types.InlineKeyboardMarkup(inline_keyboard=[[types.InlineKeyboardButton(text="📰 Телеграм канал с новостями", url="t.me/NurVPN_news")]])
 
 
 @router.message(F.text, Command("start"))
@@ -16,5 +16,5 @@ async def start(message: types.Message) -> None:
 @router.callback_query(F.data.startswith("report!"))
 async def report(callback: types.CallbackQuery) -> None:
     data = callback.data.split("!")
-    await callback.bot.send_message(chat_id=1718021890, text=f"<b>❗ Поступил запрос о баге в видео:</b>\n<code>{data[1]}</code>")
+    await callback.bot.send_message(chat_id=796531, text=f"<b>❗ Поступил запрос о баге в видео:</b>\n<code>{data[1]}</code>")
     await callback.answer("Спасибо за помощь! 💖", show_alert=True)
