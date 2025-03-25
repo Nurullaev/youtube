@@ -7,7 +7,6 @@
 A Telegram bot for downloading videos from YouTube, Instagram, TikTok, and X (Twitter) directly in your chats.
 
 ## Prerequisites 📋
-- Telegram bot token ([Get from @BotFather](https://t.me/BotFather))
 - FFmpeg
 ```bash
 $ sudo apt install ffmpeg
