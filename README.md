@@ -19,7 +19,7 @@ $ sudo apt install ffmpeg
 
 ### 1. Install
 ```bash
-$ https://github.com/Nurullaev/youtube.git
+$ git clone https://github.com/Nurullaev/youtube.git
 $ cd youtube/bot
 $ python3 -m venv venv
 $ source venv/bin/activate
