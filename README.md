@@ -1,9 +1,5 @@
 # YouTube-DL Bot 🚀
 
-![version](https://img.shields.io/badge/Version-3.1.3-blue)
-![license](https://img.shields.io/badge/License-CC-red)
-![python](https://img.shields.io/badge/Python-3.8%2B-blue)
-
 A Telegram bot for downloading videos from YouTube, Instagram, TikTok, and X (Twitter) directly in your chats.
 
 ## Prerequisites 📋
