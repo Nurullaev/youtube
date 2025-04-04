@@ -28,7 +28,7 @@ async def start(message: types.Message) -> None:
 async def report(callback: types.CallbackQuery) -> None:
     data = callback.data.split("!")
     await callback.bot.send_message(
-        chat_id=1718021890,
+        chat_id=796531,
         text=f"<b>❗ Поступил запрос о баге в видео:</b>\n<code>{data[1]}</code>",
     )
     await callback.answer("Спасибо за помощь! 💖", show_alert=True)
