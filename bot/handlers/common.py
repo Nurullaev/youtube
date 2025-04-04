@@ -9,7 +9,7 @@ def news_kb() -> types.InlineKeyboardMarkup:
         inline_keyboard=[
             [
                 types.InlineKeyboardButton(
-                    text="📰 Телеграм канал с новостями", url="t.me/anekobtw_c"
+                    text="📰 Телеграм канал с новостями", url="t.me/NurVPN_news"
                 )
             ]
         ]
